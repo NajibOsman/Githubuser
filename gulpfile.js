@@ -9,6 +9,7 @@ var buildProduction = utilities.env.production;
 var jshint = require('gulp-jshint');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var browserSync = require('browserSync').create();
 var lib = require('bower-files')({
   "overrides": {
     "bootstrap": {

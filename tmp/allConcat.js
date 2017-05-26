@@ -1,4 +1,4 @@
-var User = require('../js/user-model.js').userModule;
+var User = require('../js/user.js').userModule;
 
 var fetchUser = function(new_user) {
   user = new User(new_user);
